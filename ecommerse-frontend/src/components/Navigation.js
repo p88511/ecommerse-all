@@ -41,14 +41,14 @@ function Navigation() {
           {user && user.isAdmin ? (
             <LinkContainer to="/">
               <Navbar.Brand>
-                Adminmanagement
-                <Navbar.Brand className="brand">Chuwa</Navbar.Brand>
+                Admin
+                <Navbar.Brand className="brand">ecommerse</Navbar.Brand>
               </Navbar.Brand>
             </LinkContainer>
           ) : (
             <LinkContainer to="/">
               <Navbar.Brand>
-                Management<Navbar.Brand className="brand">Chuwa</Navbar.Brand>
+                Ecommerse<Navbar.Brand className="brand"></Navbar.Brand>
               </Navbar.Brand>
             </LinkContainer>
           )}
